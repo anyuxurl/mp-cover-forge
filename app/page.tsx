@@ -92,8 +92,39 @@ export default function HomePage() {
         </div>
       </main>
 
-      <footer className="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-xs text-zinc-400 dark:text-zinc-600">
-        画布 2566×766 (2x) · 矩形 1800×766 + 方形 766×766
+      <footer className="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-xs text-zinc-400 dark:text-zinc-600 space-y-2">
+        <div>画布 2566×766 (2x) · 矩形 1800×766 + 方形 766×766</div>
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+          <span>
+            作者：
+            <a
+              href="https://134687.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-indigo-500 transition-colors underline-offset-2 hover:underline"
+            >
+              qeeryyu
+            </a>
+          </span>
+          <span aria-hidden="true">·</span>
+          <a
+            href="https://github.com/anyuxurl/mp-cover-forge"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-indigo-500 transition-colors underline-offset-2 hover:underline"
+          >
+            源码 ↗
+          </a>
+          <span aria-hidden="true">·</span>
+          <a
+            href="mailto:qeeryyuz@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-indigo-500 transition-colors underline-offset-2 hover:underline"
+          >
+            反馈建议 ↗
+          </a>
+        </div>
       </footer>
     </div>
   );
